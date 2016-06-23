@@ -3,6 +3,8 @@
 var path = require('path'),
 	expect = require('chai').expect;
 
+require('string.prototype.startswith');
+
 describe('bcrypt argv', function () {
 
 	var bcrypt = require(path.join(__dirname, '..', 'index.js'));
@@ -57,11 +59,11 @@ describe('bcrypt argv', function () {
 
 	it('should return usage/help with no arguments', function (done) {
 
-		const stdout_write = global.process.stdout.write;
-		const stderr_write = global.process.stderr.write;
+		var stdout_write = global.process.stdout.write;
+		var stderr_write = global.process.stderr.write;
 
-		const strings = [];
-		const errStrings = [];
+		var strings = [];
+		var errStrings = [];
 
 		global.process.stdout.write = function (string) {
 			strings.push(string);

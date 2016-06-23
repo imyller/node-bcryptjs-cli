@@ -1,6 +1,6 @@
 {
   "name": "bcryptjs-cli",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Command line interface for bcryptjs",
   "author": "Ilkka Myller <ilkka.myller@nodefield.com>",
   "license": "MIT",
@@ -28,7 +28,8 @@
   },
   "devDependencies": {
     "mocha": "~2.5.3",
-    "chai": "~3.5.0"
+    "chai": "~3.5.0",
+    "string.prototype.startswith": "~0.2.0"
   },
   "scripts": {
     "test": "./node_modules/mocha/bin/mocha test"
@@ -36,5 +37,4 @@
   "bin": {
     "bcrypt": "./index.js"
   }
-
 }
