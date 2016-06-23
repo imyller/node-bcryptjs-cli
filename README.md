@@ -10,23 +10,23 @@ node-bcryptjs-cli
 
 Install this globally and you'll have access to the `bcrypt` command anywhere on your system.
 
-```sh
+```
 npm install -g bcryptjs-cli
 ```
 
 ## Usage
 
-```sh
+```
 $ bcrypt
 usage: bcrypt <string> [salt rounds]
 ```
 
-```sh
+```
 $ bcrypt mypassword
 $2a$10$ckDge4zC6brAIMtM9x47zeG56MxG7UuaVzboIP0jkHuJP7d6jIEti
 ```
 
-```sh
+```
 $ bcrypt mypassword 12
 $2a$12$1L/qFa8UKvJ9uNFoELuiDOh0rDc5ren1QnymTtD7QYpVfp4TVzFum
 ```
