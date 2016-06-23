@@ -8,7 +8,7 @@ node-bcryptjs-cli
 
 > The [`bcryptjs`](https://github.com/dcodeIO/bcrypt.js) command line interface.
 
-Install this globally and you'll have access to the `bcrypt` command anywhere on your system.
+Install this globally and you'll have access to the `bcryptjs` command anywhere on your system.
 
 ```
 npm install -g bcryptjs-cli
@@ -17,17 +17,17 @@ npm install -g bcryptjs-cli
 ## Usage
 
 ```
-$ bcrypt
-usage: bcrypt <string> [salt rounds]
+$ bcryptjs
+usage: bcryptjs <string> [salt rounds]
 ```
 
 ```
-$ bcrypt mypassword
+$ bcryptjs mypassword
 $2a$10$ckDge4zC6brAIMtM9x47zeG56MxG7UuaVzboIP0jkHuJP7d6jIEti
 ```
 
 ```
-$ bcrypt mypassword 12
+$ bcryptjs mypassword 12
 $2a$12$1L/qFa8UKvJ9uNFoELuiDOh0rDc5ren1QnymTtD7QYpVfp4TVzFum
 ```
 

@@ -35,6 +35,6 @@
     "test": "./node_modules/mocha/bin/mocha test"
   },
   "bin": {
-    "bcrypt": "./index.js"
+    "bcryptjs": "./index.js"
   }
 }
