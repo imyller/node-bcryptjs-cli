@@ -1,6 +1,6 @@
 {
   "name": "bcryptjs-cli",
-  "version": "0.0.3",
+  "version": "1.0.0",
   "description": "Command line interface for bcryptjs",
   "author": "Ilkka Myller <ilkka.myller@nodefield.com>",
   "license": "MIT",
